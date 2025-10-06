@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K Te Kenakata</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      text-align: center;
+      background: url('https://i.ibb.co/tMC4NqS4/20250831-195012.jpg') center/cover no-repeat fixed;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 30px 15px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .logo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      background-image: url('https://i.ibb.co/23m7mpsy/20250517-174247.jpg');
+      background-size: cover;
+      background-position: center;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      max-width: 90%;
+      margin: 0 auto 25px;
+      color: #f5f5f5;
+    }
+
+    .social-icons {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+      justify-items: center;
+      margin-top: 20px;
+    }
+
+    .icon-box a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: #fff;
+      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    .icon-box a img {
+      width: 50%;
+      height: 50%;
+      border-radius: 50%;
+    }
+
+    .icon-box a:hover {
+      transform: scale(1.15);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+    }
+
+    .icon-label {
+      margin-top: 6px;
+      color: #fff;
+      font-weight: 600;
+      font-size: 13px;
+    }
+
+    @media (max-width: 480px) {
+      .logo {
+        width: 120px;
+        height: 120px;
+      }
+
+      h1 {
+        font-size: 22px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      .icon-box a {
+        width: 65px;
+        height: 65px;
+      }
+
+      .icon-box a img {
+        width: 60%;
+        height: 60%;
+      }
+
+      .icon-label {
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="overlay">
+    <div class="logo"></div>
+    <h1>K Te Kenakata</h1>
+    <p>
+      আপনাকে স্বাগতম ক তে কেনাকাটায়।<br>
+      এখানে আমাদের সকল অনলাইন প্ল্যাটফর্মে প্রবেশ করতে পারবেন। নিচের আইকনে ক্লিক করুন।
+    </p>
+
+    <div class="social-icons">
+      <!-- প্রথম সারি: Facebook, Instagram, TikTok -->
+      <div class="icon-box">
+        <a href="https://www.facebook.com/share/1B1FNmbQXk/" target="_blank">
+          <img src="https://i.ibb.co/jZ4TMNcK/b10fdc7d10bd8d6e82f368c4e2b19137.jpg" alt="Facebook">
+        </a>
+        <div class="icon-label">Facebook</div>
+      </div>
+
+      <div class="icon-box">
+        <a href="https://www.instagram.com/k.te.kenakata" target="_blank">
+          <img src="https://i.ibb.co/hQmbGL7/7d369fb78ad668867000c0d987a1b70d.jpg" alt="Instagram">
+        </a>
+        <div class="icon-label">Instagram</div>
+      </div>
+
+      <div class="icon-box">
+        <a href="http://tiktok.com/@ktekenakata" target="_blank">
+          <img src="https://i.ibb.co/21Yvp6z4/e8973595c97f11b2eaebd63e2d96a7d8.jpg" alt="TikTok">
+        </a>
+        <div class="icon-label">TikTok</div>
+      </div>
+
+      <!-- দ্বিতীয় সারি: WhatsApp, Website, Email -->
+      <div class="icon-box">
+        <a href="https://wa.me/8801332118301" target="_blank">
+          <img src="https://i.ibb.co/DDktrn3z/d8506b178fa6d2c41d80d7d174e2d1dd.jpg" alt="WhatsApp">
+        </a>
+        <div class="icon-label">WhatsApp</div>
+      </div>
+
+      <div class="icon-box">
+        <a href="https://ktekenakata.sellbd.shop" target="_blank">
+          <img src="https://i.ibb.co/SDyzjnVD/6f4356b10843fb7ab5b93979f4f60e36.jpg" alt="Website">
+        </a>
+        <div class="icon-label">Website</div>
+      </div>
+
+      <div class="icon-box">
+        <a href="mailto:ktekenakata@gmail.com">
+          <img src="https://i.ibb.co/zTNKRLZk/32dafe1b642d7616ae6f3c615199ba70.jpg" alt="Email">
+        </a>
+        <div class="icon-label">Email</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
